@@ -1,0 +1,7 @@
+{
+  "name": "sys.random",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
