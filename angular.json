@@ -31,7 +31,11 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
+            "styles": [
+              "src/theme/variables.scss",
+              "src/global.scss",
+              "node_modules/@engie-group/fluid-design-system/src/fluid-design-system.scss"
+            ],
             "scripts": []
           },
           "configurations": {
