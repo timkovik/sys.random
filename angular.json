@@ -34,7 +34,11 @@
             "styles": [
               "src/theme/variables.scss",
               "src/global.scss",
-              "node_modules/@engie-group/fluid-design-system/src/fluid-design-system.scss"
+              "./node_modules/@sq-ui/ng-sq-common/sq-ui-theme.scss",
+              "./node_modules/@sq-ui/ng-sq-ui/styles/form-elements.scss",
+              "./node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/css/solid.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/css/regular.min.css"
             ],
             "scripts": []
           },
