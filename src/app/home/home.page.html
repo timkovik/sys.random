@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Рандом
-    </ion-title>
+    <ion-title> Рандом </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -14,6 +12,18 @@
   </ion-header>
 
   <div id="container" uk-margin>
+    <sq-input
+      formControlName="from"
+      controlLabel="От"
+    >
+  </sq-input>
+  <br/>
+  <sq-input
+    formControlName="To"
+    controlLabel="До"
+  >
+  </sq-input>
+
     <button class="uk-button uk-button-primary">Рандомь!</button>
   </div>
 </ion-content>
