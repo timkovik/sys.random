@@ -11,7 +11,7 @@ import { NgSqUiModule } from '@sq-ui/ng-sq-ui';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,NgSqUiModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, NgSqUiModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
